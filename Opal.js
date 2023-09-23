@@ -229,7 +229,7 @@ function main() {
 		} else if (ram[counter] == "") {
 		  // do nothing.
 		} else if (ram[counter] == "read") {
-		  while (input != true) {}
+		  re[0] = document.getElementById("value").value;
 		} else {
 		    console.log("\nSyntax Error: " + ram[counter]);
 		}
